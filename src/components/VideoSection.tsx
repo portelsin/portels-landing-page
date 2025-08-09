@@ -82,45 +82,6 @@ const VideoSection = () => {
               />
             )}
           </div>
-
-          {/* Video features */}
-          <div className="grid md:grid-cols-3 gap-6 mt-12">
-            <div className="text-center p-6 rounded-2xl bg-card shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-orange-400 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🚚</span>
-              </div>
-              <h4 className="text-lg font-semibold text-card-foreground mb-2">
-                Transportation
-              </h4>
-              <p className="text-muted-foreground text-sm">
-                See how 6 rooms fit efficiently on a single truck
-              </p>
-            </div>
-
-            <div className="text-center p-6 rounded-2xl bg-card shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-yellow-400 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">⚡</span>
-              </div>
-              <h4 className="text-lg font-semibold text-card-foreground mb-2">
-                Quick Setup
-              </h4>
-              <p className="text-muted-foreground text-sm">
-                Watch the complete installation process
-              </p>
-            </div>
-
-            <div className="text-center p-6 rounded-2xl bg-card shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-green-400 rounded-xl flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">✨</span>
-              </div>
-              <h4 className="text-lg font-semibold text-card-foreground mb-2">
-                Luxury Experience
-              </h4>
-              <p className="text-muted-foreground text-sm">
-                Experience the premium guest accommodation
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
